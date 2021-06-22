@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Furly.Интернет-магазин одежды</title>
+</head>
+<body>
+  <header class="heaader">
+    <nav class="main-nav container">
+      <a href="#" class="header-logo">
+        <img src="img/logo.svg" alt="" width="90" height="36">
+      </a>
+      <ul class="site-nav">
+        <li class="nav-item">
+          <a href="#">Новинки</a>
+        </li>
+        <li class="nav-item">
+          <a href="#">Бестселлеры</a>
+        </li>
+        <li class="nav-item">
+          <a href="#">Одежда</a>
+        </li>
+        <li class="nav-item">
+          <a href="#">Обувь</a>
+        </li>
+        <li class="nav-item">
+          <a href="#">Аксессуары</a>
+        </li>
+      </ul>
+      <ul class="user-nav">
+        <li class="user-nav-item">
+          <a class="user-nav-login" href="#">
+            <span class="visually-hidden">Вход в личный кабинет</span>
+          </a>
+        </li>
+        <li class="user-nav-item">
+          <a class="user-nav-favourite" href="#">
+            <span class="visually-hidden">Избранное</span>
+          </a>
+          <li class="user-nav-item">
+            <a class="user-nav-cart" href="#">
+              <span class="visually-hidden">Корзина</span>
+            </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main container">
+    <h1 class="main-title">Женская одежда</h1>
+    <section class="filters">
+      <h2 class="visually-hidden">Фильтры</h2>
+      <form class="filters-form" action="#" method="GET">
+        <label for="category" class="sorting-title">Категория</label>
+        <select name="category" id="category">
+          <option value="category">Все</option>
+        </select>
+        <label for="brand" class="sorting-title">Бренд</label>
+        <select name="brand" id="brand">
+          <option value="brand">Все</option>
+        </select>
+        <label for="collection" class="sorting-title">Коллекция</label>
+        <select name="collection" id="collection">
+          <option value="collection">Все</option>
+        </select>
+        <label for="sorting" class="sorting-title">Сортировать по</label>
+        <select name="sorting" id="sorting">
+          <option value="sorting">Популярности</option>
+        </select>
+      </form>
+    </section>
+    <section class="catalog">
+      <article class="article">
+        <h3 class="article-title">Платье Spring</h3>
+        <img class="article-img" src="img/photo-11.jpg" alt="" width="320" height="482">
+        <p class="article-price">4 500 ₽</p>
+      </article>
+      <article class="article">
+        <h3 class="article-title">Костюм Beige</h3>
+        <img class="article-img" src="img/photo-10.jpg" alt="" width="320" height="482">
+        <p class="article-price">8 500 ₽</p>
+      </article>
+      <article class="article">
+        <h3 class="article-title">Джинсовое платье Pink</h3>
+        <img class="article-img" src="img/photo-9.jpg" alt="" width="320" height="482">
+        <p class="article-price">6 500 ₽</p>
+      </article>
+      <article class="article">
+        <h3 class="article-title">Худи Beige</h3>
+        <img class="article-img" src="img/photo-8.jpg" alt="" width="320" height="482">
+        <p class="article-price">3 500 ₽</p>
+      </article>
+      <article class="article">
+        <h3 class="article-title">Худи Sand</h3>
+        <img class="article-img" src="img/photo-7.jpg" alt="" width="320" height="482">
+        <p class="article-price">3 500 ₽</p>
+      </article>
+      <article class="article">
+        <h3 class="article-title">Платье-комбинация Black</h3>
+        <img class="article-img" src="img/photo-6.jpg" alt="" width="320" height="482">
+        <p class="article-price">6 500 ₽</p>
+      </article>
+      <article class="article">
+        <h3 class="article-title">Тренч Sad Autumn</h3>
+        <img class="article-img" src="img/photo-5.jpg" alt="" width="320" height="482">
+        <p class="article-price">12 000 ₽</p>
+      </article>
+      <article class="article">
+        <h3 class="article-title">Костюм Grey</h3>
+        <img class="article-img" src="img/photo-4.jpg" alt="" width="320" height="482">
+        <p class="article-price">8 500 ₽</p>
+      </article>
+      <article class="article">
+        <h3 class="article-title">Платье Ornament</h3>
+        <img class="article-img" src="img/photo-3.jpg" alt="" width="320" height="482">
+        <p class="article-price">4 500 ₽</p>
+      </article>
+      <article class="article">
+        <h3 class="article-title">Пальто Thunder</h3>
+        <img class="article-img" src="img/photo-2.jpg" alt="" width="320" height="482">
+        <p class="article-price">10 000 ₽</p>
+      </article>
+      <article class="article">
+        <h3 class="article-title">Пиджак Duon</h3>
+        <img class="article-img" src="img/photo-1.jpg" alt="" width="320" height="482">
+        <p class="article-price">7 500 ₽</p>
+      </article>
+      <article class="article">
+        <h3 class="article-title">Пальто Flax</h3>
+        <img class="article-img" src="img/photo.jpg" alt="" width="320" height="482">
+        <p class="article-price">13 500 ₽</p>
+      </article>
+      <button class="main-button-more button-more" type="button">Загрузить еще</button>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-content container">
+      <a href="#" class="footer-logo">
+        <img src="img/logo.svg" alt="" width="90" height="36">
+      </a>
+      <p class="copyright">Furly © 2021 Все права защищены</p>
+      <a class="policy" href="#">Политика конфиденциальности</a>
+      <a class="footer-phone" href="tel:5349585555">534-958-5555</a>
+      <a class="footer-email" href="mailto:info@furly.com">info@furly.com</a>
+
+    </div>
+
+  </footer>
+
+</body>
+</html>
